@@ -1,5 +1,5 @@
 <script setup>
-import { store, cartItems, total } from '../store.js'
+import { store, cartItems, total } from './Pizzas.js'
 </script>
 
 <template>
@@ -25,10 +25,7 @@ import { store, cartItems, total } from '../store.js'
 
 <style scoped>
 .cart-page {
-  border: 1px solid #ddd;
-  border-radius: 8px;
   padding: 1rem;
-  margin-top: 2rem;
 }
 
 .cart-page h2 {
